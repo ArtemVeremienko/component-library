@@ -1,6 +1,6 @@
 {
   "name": "@artemveremienko/component-library",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/artemveremienko"
   },
@@ -39,11 +39,12 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "typescript": "^4.6.3"
   },
-  "dependencies": {},
-  "peerDependencies": {
-    "react": "^17.0.2",
+  "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.6.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
   }
 }
