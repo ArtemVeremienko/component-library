@@ -1,6 +1,6 @@
 {
   "name": "@artemveremienko/component-library",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/artemveremienko"
   },
@@ -44,5 +44,8 @@
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.6.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
   }
 }
