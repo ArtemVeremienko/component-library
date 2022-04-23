@@ -1,13 +1,13 @@
 {
   "name": "@artemveremienko/component-library",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/artemveremienko"
   },
   "description": "Simple UI kit for React based on MUI",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "types": "dist/types/main.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -42,14 +42,14 @@
     "rollup": "^2.70.2",
     "rollup-plugin-dts": "^4.2.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "react-dom": "~17.0.2",
     "typescript": "^4.6.3"
   },
   "dependencies": {},
   "peerDependencies": {
     "react": "~17.0.2",
-    "react-dom": "~17.0.2",
-    "@emotion/styled": "~11.8.1",
+    "@mui/material": "~5.6.2",
     "@emotion/react": "~11.9.0",
-    "@mui/material": "~5.6.2"
+    "@emotion/styled": "~11.8.1"
   }
 }
