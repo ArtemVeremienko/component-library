@@ -1,7 +1,4 @@
-import React from 'react';
-import { Button } from '@mui/material';
-import { styled } from '@mui/material/styles';
-import { grey } from '@mui/material/colors';
+import { Button, styled } from '@mui/material';
 
 export const StyledButton = styled(Button)`
   color: ${({ theme }) => {

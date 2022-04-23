@@ -1,11 +1,27 @@
-import React from 'react';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { purple } from '@mui/material/colors';
+import { createTheme, ThemeProvider } from '@mui/material';
+import { orange, purple } from '@mui/material/colors';
 import { ReactNode } from 'react';
+
+declare module '@mui/material/styles' {
+  interface Theme {
+    status: {
+      danger: string;
+    };
+  }
+  // allow configuration using `createTheme`
+  interface ThemeOptions {
+    status?: {
+      danger?: string;
+    };
+  }
+}
 
 export const theme = createTheme({
   palette: {
     primary: purple,
+  },
+  status: {
+    danger: orange[600],
   },
 });
 

@@ -15,5 +15,6 @@
     "strict": true,
     "skipLibCheck": true
   },
+  "include": ["src"],
   "exclude": ["**/*.stories.tsx"]
 }

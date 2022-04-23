@@ -6,6 +6,10 @@ import peerDeps from 'rollup-plugin-peer-deps-external';
 
 import packageJson from './package.json';
 
+/**
+ * @type {import('rollup').RollupOptions}
+ */
+
 export default [
   {
     input: 'src/main.ts',
