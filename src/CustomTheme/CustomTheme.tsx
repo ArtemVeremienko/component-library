@@ -1,5 +1,5 @@
 import { createTheme, ThemeProvider } from '@mui/material';
-import { orange, purple } from '@mui/material/colors';
+import { cyan, purple } from '@mui/material/colors';
 import { ReactNode } from 'react';
 
 declare module '@mui/material/styles' {
@@ -21,7 +21,7 @@ export const theme = createTheme({
     primary: purple,
   },
   status: {
-    danger: orange[600],
+    danger: cyan[900],
   },
 });
 
